@@ -25,6 +25,13 @@
             $statement = $this->PDO->prepare("SELECT * FROM username");
             return ($statement->execute()) ? $statement->fetchAll() : false;
         }
+
+        public function update($id,$nombre){
+            $statement = $this->PDO->prepare("UPDATE username SET nombre = :nombre WHERE id = :id");
+            $statement->bindParam(":nombre",$nombre);
+            $statement->bindParam(":id",$id);
+            return ($statement->execute()) ? $id : false;
+        }
     }
     
 ?>

@@ -6,7 +6,7 @@
     $rows = $obj->index();
 ?>
 <div class="mb-3">
-    <a href="<?php echo '/crud/view/username/create.php' ?>" class="btn btn-primary">Agregar nuevo usuario</a>
+    <a href="<?php echo '/crudphp/view/username/create.php' ?>" class="btn btn-primary">Agregar nuevo usuario</a>
 </div>
 <table class="table">
     <thead>

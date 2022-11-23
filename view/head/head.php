@@ -14,7 +14,7 @@
 <body>
     <div class="container-fluid bg-dark p-2 mb-3">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="<?php echo '/crud/index.php'?>">Inicio</a>
+            <a class="navbar-brand" href="<?php echo '/crudphp/index.php'?>">Inicio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,8 +26,8 @@
                     Username
                     </a>
                     <div class="dropdown-menu">
-                    <a class="dropdown-item" href="/crud/view/username/index.php">Usuarios</a>
-                    <a class="dropdown-item" href="<?php echo '/crud/view/username/create.php'?>">Agregar nuevos usuarios</a>
+                    <a class="dropdown-item" href="/crudphp/view/username/index.php">Usuarios</a>
+                    <a class="dropdown-item" href="<?php echo '/crudphp/view/username/create.php'?>">Agregar nuevos usuarios</a>
                     </div>
                 </li>
                 </ul>

@@ -20,6 +20,10 @@
         public function index(){
             return ($this->model->index()) ? $this->model->index() : false;
         }
+
+        public function update($id, $nombre){
+            return ($this->model->update($id,$nombre) != false) ? header("Location:show.php?id=".$id) : header("Location:index.php");
+        }
     }
     
 ?>
