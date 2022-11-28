@@ -52,7 +52,7 @@
             <?php endforeach; ?>
         <?php else: ?>
             <tr>
-                <td colspan="3" class="text-center">No hay registros.</td>
+                <td colspan="3" class="text-center">No hay registros actualmente.</td>
             </tr>
         <?php endif; ?>
     </tbody>

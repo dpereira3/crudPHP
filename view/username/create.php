@@ -1,5 +1,4 @@
 <?php
-    
     require_once('../../view/head/head.php');
 ?>
 
@@ -13,6 +12,6 @@
   <a href="index.php" class="btn btn-danger">cancelar</a>
 </form>
 
-<?php
+<?php                
     require_once('../../view/head/footer.php');
 ?>
